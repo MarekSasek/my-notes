@@ -1,0 +1,9 @@
+export const ALL_NOTES_LOADED = "ALL_NOTES_LOADED";
+export const NEW_NOTE_LOADED = "NEW_NOTE_LOADED";
+export const NOTE_REMOVED = "NOTE_REMOVED";
+export const NOTE_VIEWED = "NOTE_VIEWED";
+export const NOTE_EDITED = "NOTE_EDITED";
+export const IS_VIEWING = "IS_VIEWING";
+export const IS_CREATING = "IS_CREATING";
+export const IS_EDITING = "IS_EDITING";
+export const CURRENT_NOTE = "CURRENT_NOTE";

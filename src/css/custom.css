@@ -1,0 +1,15 @@
+.mw-42 {
+    min-width: 42px;
+}
+
+.no-border {
+    border: 0px none !important;
+}
+
+.last-border {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.radius {
+    border-radius: 0.2rem !important;
+}
