@@ -1,12 +1,14 @@
 This project was bootstrapped with Create React App.
 
-Author: Marek Šašek
+Author: Marek Šašek<br />
 Email: marek.sasek@outlook.com
 
-### How install and run the application
+### How to install and run the application
 
-install application: "npm install"
+1) clone this repository
 
-start application: "npm start"
+2) install application: `npm install`
 
-run tests: "npm test"
+3) start application: `npm start`
+
+run tests: `npm test a`
