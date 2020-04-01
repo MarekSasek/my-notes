@@ -7,5 +7,6 @@ export default {
         noteDetail: "Detail poznámky",
         editNote: "Úprava poznámky"
     },
-    changeLanguage: "Změnit jazyk"
+    changeLanguage: "Změnit jazyk",
+    pageNotFound: "Bohužel, požadovaná stránka nebyla nalezena."
 }   

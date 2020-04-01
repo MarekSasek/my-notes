@@ -22,10 +22,6 @@ const mapDispatchToProps = dispatch => {
 
 class NoteTableItem extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
 
     startEditNote = () => {
         this.props.currentNote(this.props.note);

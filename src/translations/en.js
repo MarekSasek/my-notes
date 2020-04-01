@@ -7,5 +7,6 @@ export default {
         noteDetail: "Note detail",
         editNote: "Edit note"
     },
-    changeLanguage: "Change language"
+    changeLanguage: "Change language",
+    pageNotFound: "Unfortunately, required page was not found."
 }

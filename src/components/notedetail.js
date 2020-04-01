@@ -27,11 +27,7 @@ const mapStateToProps = state => {
 
 class NoteDetail extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
-
+    
     renderLabel = () => {
         const {isCreating, isViewing, isEditing} = this.props;
         if (isCreating) {

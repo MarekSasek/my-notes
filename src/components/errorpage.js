@@ -1,17 +1,14 @@
 import React, {Component} from "react";
+import Translate from "react-translate-component";
 
 
 class ErrorPage extends Component {
-
-    constructor(props) {
-        super(props);
-    }
 
 
     render() {
         return (
             <div className="text-center mt-5">
-                <h3>Bohužel, požadovaná stránka nebyla nalezena.</h3>
+                <Translate content="pageNotFound" component="h3" />
             </div>
         )
     }

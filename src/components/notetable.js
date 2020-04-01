@@ -30,11 +30,7 @@ const mapStateToProps = state => {
 
 class NoteTable extends Component {
 
-    constructor(props) {
-        super(props);      
-    }
-
-
+    
     componentDidMount() {
         const {isCreatingg, isViewing, isEditing} = this.props; 
                      
