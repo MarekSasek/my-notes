@@ -63,7 +63,7 @@ class NoteTable extends Component {
                                 </tr>
                             </thead>              
                             <tbody className="last-border">
-                                {allNotes.map(note => <NoteTableItem key={note.id} note={note} />)}                                                                   
+                                {allNotes.map((note, index) => <NoteTableItem key={index} note={note} />) /*Key index je zde použit pouze z důvodu statického mock API, které vrací stále stejné id. Při plně funkčním API by hodnota key byla note.id.*/}                                                                   
                             </tbody>
                         </Table>
                     </Col>
